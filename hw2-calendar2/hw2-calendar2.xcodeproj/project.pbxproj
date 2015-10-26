@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1266404D1BDE371C00B68D61 /* infoSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266404C1BDE371C00B68D61 /* infoSun.swift */; };
+		1266404F1BDE373200B68D61 /* infoMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266404E1BDE373200B68D61 /* infoMon.swift */; };
+		126640511BDE373D00B68D61 /* infoTues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126640501BDE373D00B68D61 /* infoTues.swift */; };
+		126640531BDE374C00B68D61 /* infoWed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126640521BDE374C00B68D61 /* infoWed.swift */; };
+		126640551BDE375A00B68D61 /* infoThurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126640541BDE375A00B68D61 /* infoThurs.swift */; };
+		126640571BDE376500B68D61 /* infoFri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126640561BDE376500B68D61 /* infoFri.swift */; };
+		126640591BDE378000B68D61 /* infoSat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126640581BDE378000B68D61 /* infoSat.swift */; };
+		12FE06381BDE21130060E905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06371BDE21130060E905 /* AppDelegate.swift */; };
+		12FE063A1BDE21130060E905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06391BDE21130060E905 /* ViewController.swift */; };
+		12FE063D1BDE21130060E905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FE063B1BDE21130060E905 /* Main.storyboard */; };
+		12FE063F1BDE21130060E905 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FE063E1BDE21130060E905 /* Images.xcassets */; };
+		12FE06421BDE21130060E905 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FE06401BDE21130060E905 /* LaunchScreen.xib */; };
+		12FE064E1BDE21130060E905 /* hw2_calendar2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE064D1BDE21130060E905 /* hw2_calendar2Tests.swift */; };
+		12FE06581BDE23730060E905 /* Sunday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06571BDE23730060E905 /* Sunday.swift */; };
+		12FE065A1BDE237D0060E905 /* Monday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06591BDE237D0060E905 /* Monday.swift */; };
+		12FE065C1BDE23A20060E905 /* Tuesday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE065B1BDE23A20060E905 /* Tuesday.swift */; };
+		12FE065E1BDE23B20060E905 /* Wednesday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE065D1BDE23B20060E905 /* Wednesday.swift */; };
+		12FE06601BDE23C90060E905 /* Thursday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE065F1BDE23C90060E905 /* Thursday.swift */; };
+		12FE06621BDE23D70060E905 /* Friday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06611BDE23D70060E905 /* Friday.swift */; };
+		12FE06641BDE23E00060E905 /* Saturday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06631BDE23E00060E905 /* Saturday.swift */; };
+		12FE06681BDE27180060E905 /* addEventMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06671BDE27180060E905 /* addEventMon.swift */; };
+		12FE066A1BDE27280060E905 /* addEventTues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06691BDE27280060E905 /* addEventTues.swift */; };
+		12FE066C1BDE27390060E905 /* addEventWed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE066B1BDE27390060E905 /* addEventWed.swift */; };
+		12FE066E1BDE274D0060E905 /* addEventThurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE066D1BDE274D0060E905 /* addEventThurs.swift */; };
+		12FE06701BDE275E0060E905 /* addEventFri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE066F1BDE275E0060E905 /* addEventFri.swift */; };
+		12FE06721BDE276E0060E905 /* addEventSat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06711BDE276E0060E905 /* addEventSat.swift */; };
+		12FE06741BDE2D900060E905 /* addEventSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE06731BDE2D900060E905 /* addEventSun.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12FE06481BDE21130060E905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FE062A1BDE21130060E905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FE06311BDE21130060E905;
+			remoteInfo = "hw2-calendar2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1266404C1BDE371C00B68D61 /* infoSun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoSun.swift; sourceTree = "<group>"; };
+		1266404E1BDE373200B68D61 /* infoMon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoMon.swift; sourceTree = "<group>"; };
+		126640501BDE373D00B68D61 /* infoTues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoTues.swift; sourceTree = "<group>"; };
+		126640521BDE374C00B68D61 /* infoWed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoWed.swift; sourceTree = "<group>"; };
+		126640541BDE375A00B68D61 /* infoThurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoThurs.swift; sourceTree = "<group>"; };
+		126640561BDE376500B68D61 /* infoFri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoFri.swift; sourceTree = "<group>"; };
+		126640581BDE378000B68D61 /* infoSat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoSat.swift; sourceTree = "<group>"; };
+		12FE06321BDE21130060E905 /* hw2-calendar2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw2-calendar2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FE06361BDE21130060E905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FE06371BDE21130060E905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12FE06391BDE21130060E905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12FE063C1BDE21130060E905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12FE063E1BDE21130060E905 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12FE06411BDE21130060E905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12FE06471BDE21130060E905 /* hw2-calendar2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw2-calendar2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FE064C1BDE21130060E905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FE064D1BDE21130060E905 /* hw2_calendar2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2_calendar2Tests.swift; sourceTree = "<group>"; };
+		12FE06571BDE23730060E905 /* Sunday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sunday.swift; sourceTree = "<group>"; };
+		12FE06591BDE237D0060E905 /* Monday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monday.swift; sourceTree = "<group>"; };
+		12FE065B1BDE23A20060E905 /* Tuesday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuesday.swift; sourceTree = "<group>"; };
+		12FE065D1BDE23B20060E905 /* Wednesday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wednesday.swift; sourceTree = "<group>"; };
+		12FE065F1BDE23C90060E905 /* Thursday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thursday.swift; sourceTree = "<group>"; };
+		12FE06611BDE23D70060E905 /* Friday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friday.swift; sourceTree = "<group>"; };
+		12FE06631BDE23E00060E905 /* Saturday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saturday.swift; sourceTree = "<group>"; };
+		12FE06671BDE27180060E905 /* addEventMon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventMon.swift; sourceTree = "<group>"; };
+		12FE06691BDE27280060E905 /* addEventTues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventTues.swift; sourceTree = "<group>"; };
+		12FE066B1BDE27390060E905 /* addEventWed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventWed.swift; sourceTree = "<group>"; };
+		12FE066D1BDE274D0060E905 /* addEventThurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventThurs.swift; sourceTree = "<group>"; };
+		12FE066F1BDE275E0060E905 /* addEventFri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventFri.swift; sourceTree = "<group>"; };
+		12FE06711BDE276E0060E905 /* addEventSat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventSat.swift; sourceTree = "<group>"; };
+		12FE06731BDE2D900060E905 /* addEventSun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventSun.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12FE062F1BDE21130060E905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE06441BDE21130060E905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FE06291BDE21130060E905 = {
+			isa = PBXGroup;
+			children = (
+				12FE06341BDE21130060E905 /* hw2-calendar2 */,
+				12FE064A1BDE21130060E905 /* hw2-calendar2Tests */,
+				12FE06331BDE21130060E905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12FE06331BDE21130060E905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FE06321BDE21130060E905 /* hw2-calendar2.app */,
+				12FE06471BDE21130060E905 /* hw2-calendar2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FE06341BDE21130060E905 /* hw2-calendar2 */ = {
+			isa = PBXGroup;
+			children = (
+				12FE06371BDE21130060E905 /* AppDelegate.swift */,
+				12FE06391BDE21130060E905 /* ViewController.swift */,
+				12FE063B1BDE21130060E905 /* Main.storyboard */,
+				12FE06671BDE27180060E905 /* addEventMon.swift */,
+				12FE06731BDE2D900060E905 /* addEventSun.swift */,
+				12FE06691BDE27280060E905 /* addEventTues.swift */,
+				12FE066B1BDE27390060E905 /* addEventWed.swift */,
+				12FE066D1BDE274D0060E905 /* addEventThurs.swift */,
+				12FE066F1BDE275E0060E905 /* addEventFri.swift */,
+				12FE06711BDE276E0060E905 /* addEventSat.swift */,
+				12FE06591BDE237D0060E905 /* Monday.swift */,
+				12FE065B1BDE23A20060E905 /* Tuesday.swift */,
+				12FE065D1BDE23B20060E905 /* Wednesday.swift */,
+				12FE065F1BDE23C90060E905 /* Thursday.swift */,
+				12FE06611BDE23D70060E905 /* Friday.swift */,
+				12FE06631BDE23E00060E905 /* Saturday.swift */,
+				12FE06571BDE23730060E905 /* Sunday.swift */,
+				1266404C1BDE371C00B68D61 /* infoSun.swift */,
+				1266404E1BDE373200B68D61 /* infoMon.swift */,
+				126640501BDE373D00B68D61 /* infoTues.swift */,
+				126640521BDE374C00B68D61 /* infoWed.swift */,
+				126640541BDE375A00B68D61 /* infoThurs.swift */,
+				126640561BDE376500B68D61 /* infoFri.swift */,
+				126640581BDE378000B68D61 /* infoSat.swift */,
+				12FE063E1BDE21130060E905 /* Images.xcassets */,
+				12FE06401BDE21130060E905 /* LaunchScreen.xib */,
+				12FE06351BDE21130060E905 /* Supporting Files */,
+			);
+			path = "hw2-calendar2";
+			sourceTree = "<group>";
+		};
+		12FE06351BDE21130060E905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FE06361BDE21130060E905 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FE064A1BDE21130060E905 /* hw2-calendar2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12FE064D1BDE21130060E905 /* hw2_calendar2Tests.swift */,
+				12FE064B1BDE21130060E905 /* Supporting Files */,
+			);
+			path = "hw2-calendar2Tests";
+			sourceTree = "<group>";
+		};
+		12FE064B1BDE21130060E905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FE064C1BDE21130060E905 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12FE06311BDE21130060E905 /* hw2-calendar2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FE06511BDE21130060E905 /* Build configuration list for PBXNativeTarget "hw2-calendar2" */;
+			buildPhases = (
+				12FE062E1BDE21130060E905 /* Sources */,
+				12FE062F1BDE21130060E905 /* Frameworks */,
+				12FE06301BDE21130060E905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw2-calendar2";
+			productName = "hw2-calendar2";
+			productReference = 12FE06321BDE21130060E905 /* hw2-calendar2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12FE06461BDE21130060E905 /* hw2-calendar2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FE06541BDE21130060E905 /* Build configuration list for PBXNativeTarget "hw2-calendar2Tests" */;
+			buildPhases = (
+				12FE06431BDE21130060E905 /* Sources */,
+				12FE06441BDE21130060E905 /* Frameworks */,
+				12FE06451BDE21130060E905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FE06491BDE21130060E905 /* PBXTargetDependency */,
+			);
+			name = "hw2-calendar2Tests";
+			productName = "hw2-calendar2Tests";
+			productReference = 12FE06471BDE21130060E905 /* hw2-calendar2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12FE062A1BDE21130060E905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Daniel Meyer";
+				TargetAttributes = {
+					12FE06311BDE21130060E905 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					12FE06461BDE21130060E905 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 12FE06311BDE21130060E905;
+					};
+				};
+			};
+			buildConfigurationList = 12FE062D1BDE21130060E905 /* Build configuration list for PBXProject "hw2-calendar2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12FE06291BDE21130060E905;
+			productRefGroup = 12FE06331BDE21130060E905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12FE06311BDE21130060E905 /* hw2-calendar2 */,
+				12FE06461BDE21130060E905 /* hw2-calendar2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12FE06301BDE21130060E905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FE063D1BDE21130060E905 /* Main.storyboard in Resources */,
+				12FE06421BDE21130060E905 /* LaunchScreen.xib in Resources */,
+				12FE063F1BDE21130060E905 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE06451BDE21130060E905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FE062E1BDE21130060E905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266404F1BDE373200B68D61 /* infoMon.swift in Sources */,
+				126640591BDE378000B68D61 /* infoSat.swift in Sources */,
+				12FE065E1BDE23B20060E905 /* Wednesday.swift in Sources */,
+				12FE066A1BDE27280060E905 /* addEventTues.swift in Sources */,
+				12FE065C1BDE23A20060E905 /* Tuesday.swift in Sources */,
+				12FE06601BDE23C90060E905 /* Thursday.swift in Sources */,
+				1266404D1BDE371C00B68D61 /* infoSun.swift in Sources */,
+				12FE063A1BDE21130060E905 /* ViewController.swift in Sources */,
+				12FE06681BDE27180060E905 /* addEventMon.swift in Sources */,
+				12FE06581BDE23730060E905 /* Sunday.swift in Sources */,
+				126640571BDE376500B68D61 /* infoFri.swift in Sources */,
+				12FE06381BDE21130060E905 /* AppDelegate.swift in Sources */,
+				12FE06621BDE23D70060E905 /* Friday.swift in Sources */,
+				126640511BDE373D00B68D61 /* infoTues.swift in Sources */,
+				126640531BDE374C00B68D61 /* infoWed.swift in Sources */,
+				12FE06641BDE23E00060E905 /* Saturday.swift in Sources */,
+				126640551BDE375A00B68D61 /* infoThurs.swift in Sources */,
+				12FE06701BDE275E0060E905 /* addEventFri.swift in Sources */,
+				12FE065A1BDE237D0060E905 /* Monday.swift in Sources */,
+				12FE066C1BDE27390060E905 /* addEventWed.swift in Sources */,
+				12FE06741BDE2D900060E905 /* addEventSun.swift in Sources */,
+				12FE066E1BDE274D0060E905 /* addEventThurs.swift in Sources */,
+				12FE06721BDE276E0060E905 /* addEventSat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE06431BDE21130060E905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FE064E1BDE21130060E905 /* hw2_calendar2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12FE06491BDE21130060E905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FE06311BDE21130060E905 /* hw2-calendar2 */;
+			targetProxy = 12FE06481BDE21130060E905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12FE063B1BDE21130060E905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FE063C1BDE21130060E905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12FE06401BDE21130060E905 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FE06411BDE21130060E905 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12FE064F1BDE21130060E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12FE06501BDE21130060E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FE06521BDE21130060E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-calendar2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12FE06531BDE21130060E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-calendar2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12FE06551BDE21130060E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hw2-calendar2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw2-calendar2.app/hw2-calendar2";
+			};
+			name = Debug;
+		};
+		12FE06561BDE21130060E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hw2-calendar2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw2-calendar2.app/hw2-calendar2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FE062D1BDE21130060E905 /* Build configuration list for PBXProject "hw2-calendar2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE064F1BDE21130060E905 /* Debug */,
+				12FE06501BDE21130060E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FE06511BDE21130060E905 /* Build configuration list for PBXNativeTarget "hw2-calendar2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE06521BDE21130060E905 /* Debug */,
+				12FE06531BDE21130060E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FE06541BDE21130060E905 /* Build configuration list for PBXNativeTarget "hw2-calendar2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE06551BDE21130060E905 /* Debug */,
+				12FE06561BDE21130060E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12FE062A1BDE21130060E905 /* Project object */;
+}
